@@ -106,6 +106,7 @@
   .sideIcon {
     width: 3rem;
     transition-duration: 0.4s;
+    user-select: none;
   }
 
   .sideIcon:hover {
