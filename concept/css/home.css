@@ -21,6 +21,22 @@
     background-color: #e5e7eb;
   }
 
+  /* SCROLLBAR */
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e5e7eb;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 26px;
+  }
+
   .pageFooter {
     display: flex;
     flex-direction: row;
