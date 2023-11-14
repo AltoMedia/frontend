@@ -80,6 +80,7 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    max-width: calc(100% - 2rem;);
   }
 
   .profileInfoLeft {
@@ -133,11 +134,16 @@
 
 
   @media (min-width: 650px) and (max-width: 900px) {
+
+    .hideOnSmall {
+      display: none;
+    }
+
     .mainPageContent {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      max-width: calc(100% - 2rem);
+      max-width: 100%;
     }
 
     .showOnMobile {
@@ -170,11 +176,16 @@
   }
 
   @media (min-width: 0px) and (max-width: 650px) {
+
+    .hideOnSmall {
+      display: none;
+    }
+    
     .mainPageContent {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      max-width: calc(100% - 2rem);
+      max-width: 100%;
     }
 
     .showOnMobile {
